@@ -15,6 +15,7 @@ body {
   height: 100%;
   width: 100%;
 }
+
 button {
   cursor: pointer;
 }
@@ -87,7 +88,7 @@ button {
 
 /* Login Form 2 */
 .login-form-2 {
-  background-color: #5bc4fe;
+  background-color: #00C4FF;
   justify-content: flex-end;
 }
 
@@ -162,7 +163,7 @@ button {
 }
 
 .form-button-2 {
-  background-color: #4facec;
+  background-color: #28ABEA;
   color: #fff;
 }
 
@@ -170,9 +171,87 @@ button {
   color: #575757;
   text-decoration: none;
 }
+
 .form-button-2:hover {
   background-color: #1d5c87;
 }
+
+/* Login Form 3 */
+.login-form-3 {
+  background-color: #19BC9D;
+}
+
+.form-wrapper-3 {
+  background-color: #fff;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.31);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-header-3 {
+  background-color: #15A083;
+  color: #fff;
+  width: 100%;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: center;
+}
+
+.form-wrapper-inner-3 {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-item-3 {
+  font-size: 1rem;
+  font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  outline: none;
+  border: 1px solid #d8d8d8;
+  border-left: none;
+}
+
+.input-w-symbol-3 {
+  width: 100%;
+  height: 3rem;
+  padding: 10px 15px;
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.symbol-box-3 {
+  background-color: #15A083;
+  height: 40px;
+  width: 40px;
+  /* position: relative; */
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.symbol-box-3 i {
+  color: #fff;
+}
+
+
 
 
 
