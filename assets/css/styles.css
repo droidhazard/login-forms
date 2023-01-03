@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: 0.2s all ease-out;
 }
 
 html,
@@ -16,9 +17,14 @@ body {
 }
 
 /* Login Form 1 */
+.login-form-1> ::placeholder {
+  color: #cacaca;
+}
+
 .login-form-1 {
   height: 100vh;
   width: 100%;
+  font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #7fba5c;
   display: flex;
   align-items: center;
@@ -27,8 +33,50 @@ body {
 
 .form-wrapper-1 {
   background-color: #fff;
-  width: 500px;
-  height: 400px;
-  padding: 1rem;
-  box-shadow: 0px 2px 21px 0px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 500px;
+  height: 380px;
+  padding: 5rem;
+  box-shadow: 0px 2px 21px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-item-1 {
+  font-size: 1rem;
+  font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 100%;
+  height: 3rem;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  margin-bottom: 1.5rem;
+}
+
+.form-input-1 {
+  background-color: #f2f2f2;
+}
+.form-button-1 {
+  background-color: #51b250;
+  color: #fff;
+  cursor: pointer;
+}
+.form-button-1:hover {
+  background-color: #349332;
+}
+.form-label-1 {
+  color: #575757;
+}
+.form-link-1 {
+  color: #51b250;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+  .form-wrapper-1 {
+    padding: 2rem;
+  }
+
 }
