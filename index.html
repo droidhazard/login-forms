@@ -1,27 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login Forms</title>
   <!-- FontAwesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
+
 <body>
   <!-- Login Form 1 -->
-  <div class="login-form-1">
+  <div class="form-container login-form-1">
     <form action="" class="form-wrapper-1">
       <input type="text" class="form-input-1 form-item-1" placeholder="username">
       <input type="password" name="" id="" class="form-input-1 form-item-1" placeholder="password">
-      <button class="form-button-1  form-item-1">LOGIN</button>
+      <button class="form-button-1 form-item-1">LOGIN</button>
       <p class="form-label-1">Not registered ? <a href="#!" class="form-link-1"> Create an account</a></p>
     </form>
   </div>
 
+  <!-- Login Form 2 -->
+  <div class="form-container login-form-2">
+    <form action="" class="form-wrapper-2">
+      <div class="circle-cosmetic">
+        <i class="fa-solid fa-circle-user"></i>
+      </div>
+      <p class="form-heading-2">Login</p>
+      <span class="input-w-symbol-2"><i class="fa-solid fa-user"></i>
+      <input type="text" class="form-input-2 form-item-2" placeholder="Username"></span>
+      <span class="input-w-symbol-2"><i class="fa-solid fa-lock"></i>
+      <input type="password" name="" id="" class="form-input-2 form-item-2" placeholder="Password"></span>
+      <button class="form-button-2 form-item-2">Sign in</button>
+      <a href="#!" class="form-link-2">Forgot your password?</a>
+    </form>
+  </div>
+
+
   <!-- Custom Javascript -->
   <script src="./assets/js/app.js"></script>
 </body>
+
 </html>
