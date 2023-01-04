@@ -211,13 +211,15 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
+
 .form-item-3 {
   font-size: 1rem;
   font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   height: 40px;
   width: 100%;
+  padding-left: 10px;
   border: none;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -229,12 +231,17 @@ button {
 .input-w-symbol-3 {
   width: 100%;
   height: 3rem;
-  padding: 10px 15px;
+  /* padding: 10px 15px; */
   margin-bottom: 0.8rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+.input-w-symbol-3:nth-child(2) {
+  margin-bottom: 0;
+}
+
 .symbol-box-3 {
   background-color: #15A083;
   height: 40px;
@@ -249,6 +256,30 @@ button {
 
 .symbol-box-3 i {
   color: #fff;
+}
+
+.form-link-3 {
+  color: #128e73;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.form-button-3 {
+  background-color: #15A083;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin: 1.3rem 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-button-3:hover {
+  background-color: #128e73;
+}
+
+.form-register-link-3 {
+  text-align: center;
 }
 
 
